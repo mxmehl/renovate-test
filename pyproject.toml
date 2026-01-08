@@ -1,0 +1,32 @@
+[tool.poetry]
+name = "test"
+version = "1.0.0"
+description = "TEST"
+authors = ["Max Mehl <mail@mehl.mx>"]
+keywords = []
+license = "GPL-3.0-only"
+classifiers = []
+packages = [{ include = "test" }]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.1.2"
+pygithub = "^2.8.1"
+python-gitlab = "^7.0.0"
+libsass = "^0.23.0"
+toml = "^0.10.1"
+platformdirs = "^4.5.0"
+setuptools = "^80.9.0"
+python-daemon = "^3.1.2"
+python-dateutil = "^2.9.0.post0"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.18.2"
+pylint = "^4.0.0"
+black = "^25.9.0"
+isort = "^7.0.0"
+bump-my-version = "^1.2.4"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
