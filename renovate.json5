@@ -5,6 +5,9 @@
   "extends": ["github>OpenRailAssociation/renovate-config"],
   lockFileMaintenance: {
     enabled: true,
+    schedule: [
+      "before 5pm on thursday",
+    ]
   },
   minimumReleaseAge: null,
 }
