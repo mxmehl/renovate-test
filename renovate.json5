@@ -6,4 +6,5 @@
   lockFileMaintenance: {
     enabled: true,
   },
+  minimumReleaseAge: null,
 }
